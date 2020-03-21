@@ -25,11 +25,16 @@
     ],
     "ios": {
       "bundleIdentifier": "com.halpeters.quake-catalog-mobile",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.halpeters.quake-catalog-mobile",
+      "package": "com.quake-catalog-mobile",
       "versionCode": 1
-    }
-  }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Quake Catalog Mobile",
+  "name": "quakeCatalogMobile"
 }
+
