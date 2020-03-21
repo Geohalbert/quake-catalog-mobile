@@ -24,7 +24,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.halpeters.quake-catalog-mobile",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.halpeters.quake-catalog-mobile",
+      "versionCode": 1
     }
   }
 }

@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A041C0C40F1F5BE9FE6CA1C /* Pods_quake_catalog_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908AB78306B323A2C10C60E2 /* Pods_quake_catalog_mobileTests.framework */; };
+		51EA4C702425862B002C6D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA4C6F2425862B002C6D93 /* AppDelegate.swift */; };
+		51EA4C722425862B002C6D93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA4C712425862B002C6D93 /* SceneDelegate.swift */; };
+		51EA4C742425862B002C6D93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA4C732425862B002C6D93 /* ContentView.swift */; };
+		51EA4C762425862E002C6D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA4C752425862E002C6D93 /* Assets.xcassets */; };
+		51EA4C792425862E002C6D93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA4C782425862E002C6D93 /* Preview Assets.xcassets */; };
+		51EA4C7C2425862E002C6D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EA4C7A2425862E002C6D93 /* LaunchScreen.storyboard */; };
+		51EA4C872425862F002C6D93 /* quake_catalog_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA4C862425862F002C6D93 /* quake_catalog_mobileTests.swift */; };
+		51EA4C922425862F002C6D93 /* quake_catalog_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA4C912425862F002C6D93 /* quake_catalog_mobileUITests.swift */; };
+		51EA4CA02425871D002C6D93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51EA4C9F2425871D002C6D93 /* GoogleService-Info.plist */; };
+		5A21FBA8F9187425C0DAAB85 /* Pods_quake_catalog_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F65A4CFCEB0CCE404867CC /* Pods_quake_catalog_mobile.framework */; };
+		DF35728D4EA6683C128F520E /* Pods_quake_catalog_mobile_quake_catalog_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DA93B7856D2F6DD6034768 /* Pods_quake_catalog_mobile_quake_catalog_mobileUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51EA4C832425862F002C6D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51EA4C642425862B002C6D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EA4C6B2425862B002C6D93;
+			remoteInfo = "quake-catalog-mobile";
+		};
+		51EA4C8E2425862F002C6D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51EA4C642425862B002C6D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EA4C6B2425862B002C6D93;
+			remoteInfo = "quake-catalog-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26FD0141EA8C1352E3A37EDC /* Pods-quake-catalog-mobile-quake-catalog-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quake-catalog-mobile-quake-catalog-mobileUITests.release.xcconfig"; path = "Target Support Files/Pods-quake-catalog-mobile-quake-catalog-mobileUITests/Pods-quake-catalog-mobile-quake-catalog-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32F65A4CFCEB0CCE404867CC /* Pods_quake_catalog_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quake_catalog_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C79C210B61DD1947D1DEEA /* Pods-quake-catalog-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quake-catalog-mobile.release.xcconfig"; path = "Target Support Files/Pods-quake-catalog-mobile/Pods-quake-catalog-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		47CA7CF59B2A533503D355A9 /* Pods-quake-catalog-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quake-catalog-mobile.debug.xcconfig"; path = "Target Support Files/Pods-quake-catalog-mobile/Pods-quake-catalog-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		47DA93B7856D2F6DD6034768 /* Pods_quake_catalog_mobile_quake_catalog_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quake_catalog_mobile_quake_catalog_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA4C6C2425862B002C6D93 /* quake-catalog-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quake-catalog-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA4C6F2425862B002C6D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51EA4C712425862B002C6D93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51EA4C732425862B002C6D93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51EA4C752425862E002C6D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51EA4C782425862E002C6D93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51EA4C7B2425862E002C6D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51EA4C7D2425862E002C6D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EA4C822425862F002C6D93 /* quake-catalog-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quake-catalog-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA4C862425862F002C6D93 /* quake_catalog_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quake_catalog_mobileTests.swift; sourceTree = "<group>"; };
+		51EA4C882425862F002C6D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EA4C8D2425862F002C6D93 /* quake-catalog-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quake-catalog-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA4C912425862F002C6D93 /* quake_catalog_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quake_catalog_mobileUITests.swift; sourceTree = "<group>"; };
+		51EA4C932425862F002C6D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EA4C9F2425871D002C6D93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C374F5B2FD29ABEC910D166 /* Pods-quake-catalog-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quake-catalog-mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-quake-catalog-mobileTests/Pods-quake-catalog-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		908AB78306B323A2C10C60E2 /* Pods_quake_catalog_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quake_catalog_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF84002ABCE4858B8FA6A78 /* Pods-quake-catalog-mobile-quake-catalog-mobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quake-catalog-mobile-quake-catalog-mobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-quake-catalog-mobile-quake-catalog-mobileUITests/Pods-quake-catalog-mobile-quake-catalog-mobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E05BBA4C1019F26157BD123F /* Pods-quake-catalog-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quake-catalog-mobileTests.release.xcconfig"; path = "Target Support Files/Pods-quake-catalog-mobileTests/Pods-quake-catalog-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51EA4C692425862B002C6D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A21FBA8F9187425C0DAAB85 /* Pods_quake_catalog_mobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EA4C7F2425862F002C6D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A041C0C40F1F5BE9FE6CA1C /* Pods_quake_catalog_mobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EA4C8A2425862F002C6D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF35728D4EA6683C128F520E /* Pods_quake_catalog_mobile_quake_catalog_mobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C697CE91F02411E9541866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47CA7CF59B2A533503D355A9 /* Pods-quake-catalog-mobile.debug.xcconfig */,
+				35C79C210B61DD1947D1DEEA /* Pods-quake-catalog-mobile.release.xcconfig */,
+				DCF84002ABCE4858B8FA6A78 /* Pods-quake-catalog-mobile-quake-catalog-mobileUITests.debug.xcconfig */,
+				26FD0141EA8C1352E3A37EDC /* Pods-quake-catalog-mobile-quake-catalog-mobileUITests.release.xcconfig */,
+				8C374F5B2FD29ABEC910D166 /* Pods-quake-catalog-mobileTests.debug.xcconfig */,
+				E05BBA4C1019F26157BD123F /* Pods-quake-catalog-mobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C623B67198339263A747453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F65A4CFCEB0CCE404867CC /* Pods_quake_catalog_mobile.framework */,
+				47DA93B7856D2F6DD6034768 /* Pods_quake_catalog_mobile_quake_catalog_mobileUITests.framework */,
+				908AB78306B323A2C10C60E2 /* Pods_quake_catalog_mobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EA4C632425862B002C6D93 = {
+			isa = PBXGroup;
+			children = (
+				51EA4C6E2425862B002C6D93 /* quake-catalog-mobile */,
+				51EA4C852425862F002C6D93 /* quake-catalog-mobileTests */,
+				51EA4C902425862F002C6D93 /* quake-catalog-mobileUITests */,
+				51EA4C6D2425862B002C6D93 /* Products */,
+				38C697CE91F02411E9541866 /* Pods */,
+				3C623B67198339263A747453 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51EA4C6D2425862B002C6D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51EA4C6C2425862B002C6D93 /* quake-catalog-mobile.app */,
+				51EA4C822425862F002C6D93 /* quake-catalog-mobileTests.xctest */,
+				51EA4C8D2425862F002C6D93 /* quake-catalog-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51EA4C6E2425862B002C6D93 /* quake-catalog-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				51EA4C6F2425862B002C6D93 /* AppDelegate.swift */,
+				51EA4C712425862B002C6D93 /* SceneDelegate.swift */,
+				51EA4C732425862B002C6D93 /* ContentView.swift */,
+				51EA4C752425862E002C6D93 /* Assets.xcassets */,
+				51EA4C7A2425862E002C6D93 /* LaunchScreen.storyboard */,
+				51EA4C7D2425862E002C6D93 /* Info.plist */,
+				51EA4C9F2425871D002C6D93 /* GoogleService-Info.plist */,
+				51EA4C772425862E002C6D93 /* Preview Content */,
+			);
+			path = "quake-catalog-mobile";
+			sourceTree = "<group>";
+		};
+		51EA4C772425862E002C6D93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51EA4C782425862E002C6D93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51EA4C852425862F002C6D93 /* quake-catalog-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				51EA4C862425862F002C6D93 /* quake_catalog_mobileTests.swift */,
+				51EA4C882425862F002C6D93 /* Info.plist */,
+			);
+			path = "quake-catalog-mobileTests";
+			sourceTree = "<group>";
+		};
+		51EA4C902425862F002C6D93 /* quake-catalog-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51EA4C912425862F002C6D93 /* quake_catalog_mobileUITests.swift */,
+				51EA4C932425862F002C6D93 /* Info.plist */,
+			);
+			path = "quake-catalog-mobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51EA4C6B2425862B002C6D93 /* quake-catalog-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EA4C962425862F002C6D93 /* Build configuration list for PBXNativeTarget "quake-catalog-mobile" */;
+			buildPhases = (
+				1447D697FAE64D9B9E8D1E22 /* [CP] Check Pods Manifest.lock */,
+				51EA4C682425862B002C6D93 /* Sources */,
+				51EA4C692425862B002C6D93 /* Frameworks */,
+				51EA4C6A2425862B002C6D93 /* Resources */,
+				C8927681CA49CB298671D13C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quake-catalog-mobile";
+			productName = "quake-catalog-mobile";
+			productReference = 51EA4C6C2425862B002C6D93 /* quake-catalog-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51EA4C812425862F002C6D93 /* quake-catalog-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EA4C992425862F002C6D93 /* Build configuration list for PBXNativeTarget "quake-catalog-mobileTests" */;
+			buildPhases = (
+				54A7C56900E62D2BA439AEF6 /* [CP] Check Pods Manifest.lock */,
+				51EA4C7E2425862F002C6D93 /* Sources */,
+				51EA4C7F2425862F002C6D93 /* Frameworks */,
+				51EA4C802425862F002C6D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51EA4C842425862F002C6D93 /* PBXTargetDependency */,
+			);
+			name = "quake-catalog-mobileTests";
+			productName = "quake-catalog-mobileTests";
+			productReference = 51EA4C822425862F002C6D93 /* quake-catalog-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51EA4C8C2425862F002C6D93 /* quake-catalog-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EA4C9C2425862F002C6D93 /* Build configuration list for PBXNativeTarget "quake-catalog-mobileUITests" */;
+			buildPhases = (
+				53BF03C71517FCDE73A7F00F /* [CP] Check Pods Manifest.lock */,
+				51EA4C892425862F002C6D93 /* Sources */,
+				51EA4C8A2425862F002C6D93 /* Frameworks */,
+				51EA4C8B2425862F002C6D93 /* Resources */,
+				5C82091C2B2E0EB8DE127A09 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51EA4C8F2425862F002C6D93 /* PBXTargetDependency */,
+			);
+			name = "quake-catalog-mobileUITests";
+			productName = "quake-catalog-mobileUITests";
+			productReference = 51EA4C8D2425862F002C6D93 /* quake-catalog-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51EA4C642425862B002C6D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hal Peters";
+				TargetAttributes = {
+					51EA4C6B2425862B002C6D93 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					51EA4C812425862F002C6D93 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 51EA4C6B2425862B002C6D93;
+					};
+					51EA4C8C2425862F002C6D93 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 51EA4C6B2425862B002C6D93;
+					};
+				};
+			};
+			buildConfigurationList = 51EA4C672425862B002C6D93 /* Build configuration list for PBXProject "quake-catalog-mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51EA4C632425862B002C6D93;
+			productRefGroup = 51EA4C6D2425862B002C6D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51EA4C6B2425862B002C6D93 /* quake-catalog-mobile */,
+				51EA4C812425862F002C6D93 /* quake-catalog-mobileTests */,
+				51EA4C8C2425862F002C6D93 /* quake-catalog-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51EA4C6A2425862B002C6D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EA4C7C2425862E002C6D93 /* LaunchScreen.storyboard in Resources */,
+				51EA4CA02425871D002C6D93 /* GoogleService-Info.plist in Resources */,
+				51EA4C792425862E002C6D93 /* Preview Assets.xcassets in Resources */,
+				51EA4C762425862E002C6D93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EA4C802425862F002C6D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EA4C8B2425862F002C6D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1447D697FAE64D9B9E8D1E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quake-catalog-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53BF03C71517FCDE73A7F00F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quake-catalog-mobile-quake-catalog-mobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A7C56900E62D2BA439AEF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quake-catalog-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C82091C2B2E0EB8DE127A09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quake-catalog-mobile-quake-catalog-mobileUITests/Pods-quake-catalog-mobile-quake-catalog-mobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quake-catalog-mobile-quake-catalog-mobileUITests/Pods-quake-catalog-mobile-quake-catalog-mobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quake-catalog-mobile-quake-catalog-mobileUITests/Pods-quake-catalog-mobile-quake-catalog-mobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8927681CA49CB298671D13C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quake-catalog-mobile/Pods-quake-catalog-mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quake-catalog-mobile/Pods-quake-catalog-mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quake-catalog-mobile/Pods-quake-catalog-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51EA4C682425862B002C6D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EA4C702425862B002C6D93 /* AppDelegate.swift in Sources */,
+				51EA4C722425862B002C6D93 /* SceneDelegate.swift in Sources */,
+				51EA4C742425862B002C6D93 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EA4C7E2425862F002C6D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EA4C872425862F002C6D93 /* quake_catalog_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EA4C892425862F002C6D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EA4C922425862F002C6D93 /* quake_catalog_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51EA4C842425862F002C6D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51EA4C6B2425862B002C6D93 /* quake-catalog-mobile */;
+			targetProxy = 51EA4C832425862F002C6D93 /* PBXContainerItemProxy */;
+		};
+		51EA4C8F2425862F002C6D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51EA4C6B2425862B002C6D93 /* quake-catalog-mobile */;
+			targetProxy = 51EA4C8E2425862F002C6D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51EA4C7A2425862E002C6D93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EA4C7B2425862E002C6D93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51EA4C942425862F002C6D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51EA4C952425862F002C6D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EA4C972425862F002C6D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CA7CF59B2A533503D355A9 /* Pods-quake-catalog-mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"quake-catalog-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = D36TT66R9J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "quake-catalog-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halpeters.quake-catalog-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51EA4C982425862F002C6D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C79C210B61DD1947D1DEEA /* Pods-quake-catalog-mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"quake-catalog-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = D36TT66R9J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "quake-catalog-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halpeters.quake-catalog-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51EA4C9A2425862F002C6D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C374F5B2FD29ABEC910D166 /* Pods-quake-catalog-mobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D36TT66R9J;
+				INFOPLIST_FILE = "quake-catalog-mobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halpeters.quake-catalog-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quake-catalog-mobile.app/quake-catalog-mobile";
+			};
+			name = Debug;
+		};
+		51EA4C9B2425862F002C6D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05BBA4C1019F26157BD123F /* Pods-quake-catalog-mobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D36TT66R9J;
+				INFOPLIST_FILE = "quake-catalog-mobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halpeters.quake-catalog-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quake-catalog-mobile.app/quake-catalog-mobile";
+			};
+			name = Release;
+		};
+		51EA4C9D2425862F002C6D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF84002ABCE4858B8FA6A78 /* Pods-quake-catalog-mobile-quake-catalog-mobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D36TT66R9J;
+				INFOPLIST_FILE = "quake-catalog-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halpeters.quake-catalog-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quake-catalog-mobile";
+			};
+			name = Debug;
+		};
+		51EA4C9E2425862F002C6D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FD0141EA8C1352E3A37EDC /* Pods-quake-catalog-mobile-quake-catalog-mobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D36TT66R9J;
+				INFOPLIST_FILE = "quake-catalog-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halpeters.quake-catalog-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quake-catalog-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51EA4C672425862B002C6D93 /* Build configuration list for PBXProject "quake-catalog-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EA4C942425862F002C6D93 /* Debug */,
+				51EA4C952425862F002C6D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EA4C962425862F002C6D93 /* Build configuration list for PBXNativeTarget "quake-catalog-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EA4C972425862F002C6D93 /* Debug */,
+				51EA4C982425862F002C6D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EA4C992425862F002C6D93 /* Build configuration list for PBXNativeTarget "quake-catalog-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EA4C9A2425862F002C6D93 /* Debug */,
+				51EA4C9B2425862F002C6D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EA4C9C2425862F002C6D93 /* Build configuration list for PBXNativeTarget "quake-catalog-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EA4C9D2425862F002C6D93 /* Debug */,
+				51EA4C9E2425862F002C6D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51EA4C642425862B002C6D93 /* Project object */;
+}
