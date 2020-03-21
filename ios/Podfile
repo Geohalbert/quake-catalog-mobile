@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+# add pods for desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
+
+
+target 'quake-catalog-mobile' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for quake-catalog-mobile
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
+  target 'quake-catalog-mobileTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'quake-catalog-mobileUITests' do
+    # Pods for testing
+  end
+
+end

@@ -13,9 +13,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/seismic-globle-1024x1024.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,17 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.halpeters.quake-catalog-mobile",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
-    }
-  }
+    },
+    "android": {
+      "package": "com.quakeCatalogMobile",
+      "versionCode": 1
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Quake Catalog Mobile",
+  "name": "quakeCatalogMobile"
 }
+
