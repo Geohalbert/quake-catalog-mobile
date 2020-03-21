@@ -29,7 +29,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.quake-catalog-mobile",
+      "package": "com.quakeCatalogMobile",
       "versionCode": 1
     },
     "entryPoint": "node_modules/expo/AppEntry.js"
